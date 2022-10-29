@@ -1,0 +1,13 @@
+Complexity,Loss,Equation
+1,0.6683039,"1.6242385"
+3,0.42291018,"acosh_abs(log_abs(redshift))"
+7,0.25941622,"exp(abs(0.8350419 - acosh_abs(sin(redshift))))"
+8,0.21424681,"exp(square(tan(0.82221603 - atan(acosh_abs(redshift)))))"
+9,0.1160008,"exp(square(1.0295306 - sqrt_abs(log1p_abs(redshift * -12.611893))))"
+12,0.084642194,"exp(square(tan(0.82221603 - log1p_abs(sin(acosh_abs(redshift)))) - tanh(redshift)))"
+13,0.081956014,"exp(square(abs(tan(0.82760096 - log1p_abs(sqrt_abs(redshift)))) - log1p_abs(sqrt_abs(redshift))))"
+14,0.07658822,"exp(square(tan(abs(0.82221603 - tanh(abs(redshift * g)))) - tanh(redshift)))"
+15,0.07017373,"exp(square(tan(abs(0.82221603 - tanh(log1p_abs(redshift) * g))) - tanh(square(redshift))))"
+16,0.06987407,"exp(square(tan(abs(0.82221603 - tanh(abs(redshift * abs(g))))) - tanh(cube(redshift))))"
+17,0.06703479,"(exp(square(tan(0.800781 - tanh(tanh(quart(redshift)))) - sin(tanh(redshift * g)))) - -0.01672296)"
+20,0.06440322,"exp(square(tan(0.8116656 - log1p_abs(sin(atan(abs(abs(abs(redshift * g)))) * 1.2624199))) - tanh(square(redshift))))"

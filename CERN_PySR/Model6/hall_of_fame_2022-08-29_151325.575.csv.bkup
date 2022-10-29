@@ -1,0 +1,11 @@
+Complexity,Loss,Equation
+1,637.4135,"29.920486"
+3,388.0189,"(pt2 + pt1)"
+5,366.2231,"square(log_abs(E2 * pt1))"
+7,346.06808,"square(log_abs(pt2 * pt1) / 0.830781)"
+8,344.87314,"(sqrt_abs((E2 + pt2) * pt1) - -8.06364)"
+9,213.84839,"square(acosh_abs((pt2 * pt1) * (eta1 - eta2)))"
+10,125.38137,"square(log_abs((pt2 * pt1) * cosh(eta1 - eta2)))"
+12,92.00657,"(square(acosh_abs(pt2 * pt1) + abs(eta1 - eta2)) - 17.196344)"
+13,82.73897,"(square(asinh(pt2 * pt1) + acosh_abs(cosh(eta1 - eta2))) - 23.642761)"
+14,55.967884,"square(pow_abs(log_abs(pt2 * pt1) - 1.5919594, 1.2116214) + abs(eta1 - eta2))"
